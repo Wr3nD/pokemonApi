@@ -1,0 +1,47 @@
+.nav-center {
+}
+.nav-header {
+}
+
+.nav-center {
+    background: #ff595e;
+
+    border-radius: 2rem;
+
+    /* display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center; */
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: center;
+    padding: 1rem;
+}
+.underline {
+    align-items: center;
+    color: #e3e0e2;
+}
+a {
+    color: saddlebrown;
+
+    text-decoration: none;
+    padding: 1.2rem;
+    background: #302f31;
+    border-radius: 2rem;
+}
+a:hover {
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+    transition: transform 0.2s;
+    text-transform: capitalize;
+    padding: 2rem;
+}
+li:hover {
+    transform: scale(1.1);
+}

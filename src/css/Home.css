@@ -1,0 +1,19 @@
+.main-box {
+    background: #ff595e;
+    border-radius: 2rem;
+    display: flex;
+
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    pointer-events: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
