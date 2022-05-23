@@ -40,17 +40,15 @@ const Evolve = ({ id, SinglePokemonData, species }) => {
     if (evolution) {
         return (
             <div className="grid">
-                <Carousel>
-                    <div>
-                        <Cart data={data1} id={id} />
-                    </div>
-                    <div>
-                        <Cart data={data2} id={id} />
-                    </div>
-                    <div>
-                        <Cart data={data3} id={id} />
-                    </div>
-                </Carousel>
+                <div>
+                    <Cart data={data1} id={id} />
+                </div>
+                <div>
+                    <Cart data={data2} id={id} />
+                </div>
+                <div>
+                    <Cart data={data3} id={id} />
+                </div>
             </div>
         );
     }
