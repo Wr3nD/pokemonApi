@@ -61,7 +61,7 @@ const Cart = ({ data, id }) => {
             return "";
         };
         return (
-            <main className={`special${chose()}`}>
+            <main className={`special${chose()} `}>
                 <div
                     className={`main-${colorSelector()} 
                 `}

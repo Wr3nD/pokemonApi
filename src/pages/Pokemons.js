@@ -56,16 +56,14 @@ const Pokemons = () => {
                     {pokemons?.results?.map((pokemon) => {
                         const { url, name } = pokemon;
                         return (
-                            <>
-                                <Link
-                                    to={`/pokemons/${name}`}
-                                    className="grid-box2"
-                                    key={url}
-                                >
-                                    {/* <Link to={`/pokemons/${name}`}>tady</Link> */}
-                                    <h1>{name}</h1>
-                                </Link>
-                            </>
+                            <Link
+                                to={`/pokemons/${name}`}
+                                className="grid-box2"
+                                key={url}
+                            >
+                                {/* <Link to={`/pokemons/${name}`}>tady</Link> */}
+                                <h1>{name}</h1>
+                            </Link>
                         );
                     })}
                 </div>
